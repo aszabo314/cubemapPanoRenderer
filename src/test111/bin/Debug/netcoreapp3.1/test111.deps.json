@@ -1,0 +1,1310 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "test111/1.0.0": {
+        "dependencies": {
+          "Aardvark.Application": "5.1.11",
+          "Aardvark.Application.Slim": "5.1.11",
+          "Aardvark.Application.Slim.GL": "5.1.11",
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Runtime": "5.1.9",
+          "Aardvark.Base.Telemetry": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "Aardvark.Base.TypeProviders": "4.5.15",
+          "Aardvark.Geometry": "5.1.9",
+          "Aardvark.PixImage.DevIL": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "Aardvark.Rendering.GL": "5.1.11",
+          "Aardvark.SceneGraph": "5.1.11",
+          "Aardvark.SceneGraph.IO": "5.1.11",
+          "DevILSharp": "0.2.11",
+          "FShade": "5.1.8",
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FShade.Imperative": "5.1.8",
+          "FShade.SpirV": "5.1.8",
+          "FSharp.Core": "4.7.0",
+          "FSharp.Data.Adaptive": "1.2.5",
+          "FsPickler": "5.3.2",
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "5.0.0",
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "Silk.NET.Core": "1.7.0",
+          "Silk.NET.GLFW": "1.7.0",
+          "SixLabors.ImageSharp": "1.0.3",
+          "System.Collections": "4.3.0",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.7.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encodings.Web": "5.0.1",
+          "System.Text.Json": "5.0.2",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0",
+          "Ultz.Native.GLFW": "3.3.2.1",
+          "Ultz.SuperInvoke": "1.1.0",
+          "Ultz.SuperInvoke.Loader": "1.1.0",
+          "Unofficial.AssimpNet": "4.0.9",
+          "Unofficial.LibTessDotNet": "2.0.2",
+          "Unofficial.OpenTK": "3.0.20"
+        },
+        "runtime": {
+          "test111.dll": {}
+        }
+      },
+      "Aardvark.Application/5.1.11": {
+        "dependencies": {
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Application.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Application.Slim/5.1.11": {
+        "dependencies": {
+          "Aardvark.Application": "5.1.11",
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Runtime": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "FShade": "5.1.8",
+          "FSharp.Core": "4.7.0",
+          "Unofficial.OpenTK": "3.0.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Application.Slim.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Application.Slim.GL/5.1.11": {
+        "dependencies": {
+          "Aardvark.Application": "5.1.11",
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Runtime": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "Aardvark.Rendering.GL": "5.1.11",
+          "FShade": "5.1.8",
+          "FSharp.Core": "4.7.0",
+          "Silk.NET.Core": "1.7.0",
+          "Silk.NET.GLFW": "1.7.0",
+          "Unofficial.OpenTK": "3.0.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Application.Slim.GL.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base.Telemetry": "5.1.9",
+          "System.Collections.Immutable": "5.0.0",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Aardvark.Base.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.Essentials/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "DevILSharp": "0.2.11",
+          "System.Collections.Immutable": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.Essentials.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.FSharp/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.TypeProviders": "4.5.15",
+          "DevILSharp": "0.2.11",
+          "FSharp.Core": "4.7.0",
+          "FSharp.Data.Adaptive": "1.2.5",
+          "FsPickler": "5.3.2",
+          "System.Dynamic.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.FSharp.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.Incremental/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "Aardvark.Base.TypeProviders": "4.5.15",
+          "DevILSharp": "0.2.11",
+          "FSharp.Core": "4.7.0",
+          "FSharp.Data.Adaptive": "1.2.5",
+          "FsPickler": "5.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.Incremental.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.Runtime/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base.FSharp": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.TypeProviders": "4.5.15",
+          "DevILSharp": "0.2.11",
+          "FSharp.Core": "4.7.0",
+          "FSharp.Data.Adaptive": "1.2.5",
+          "FsPickler": "5.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.Runtime.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.Telemetry/5.1.9": {
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.Telemetry.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.Tensors/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "FSharp.Core": "4.7.0",
+          "SixLabors.ImageSharp": "1.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.Tensors.CSharp.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          },
+          "lib/netstandard2.0/Aardvark.Base.Tensors.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Base.TypeProviders/4.5.15": {
+        "dependencies": {
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Base.TypeProviders.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Aardvark.Geometry/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "Aardvark.Base.TypeProviders": "4.5.15",
+          "DevILSharp": "0.2.11",
+          "FSharp.Core": "4.7.0",
+          "FSharp.Data.Adaptive": "1.2.5",
+          "FsPickler": "5.3.2",
+          "Unofficial.LibTessDotNet": "2.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Geometry.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.PixImage.DevIL/5.1.9": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "DevILSharp": "0.2.11"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.PixImage.DevIL.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Rendering/5.1.11": {
+        "dependencies": {
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Rendering.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.Rendering.GL/5.1.11": {
+        "dependencies": {
+          "Aardvark.Base.Essentials": "5.1.9",
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Runtime": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "Aardvark.Geometry": "5.1.9",
+          "Aardvark.PixImage.DevIL": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "FShade": "5.1.8",
+          "FSharp.Core": "4.7.0",
+          "Unofficial.OpenTK": "3.0.20"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.Rendering.GL.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.SceneGraph/5.1.11": {
+        "dependencies": {
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.SceneGraph.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "Aardvark.SceneGraph.IO/5.1.11": {
+        "dependencies": {
+          "Aardvark.Base.Incremental": "5.1.9",
+          "Aardvark.Base.Tensors": "5.1.9",
+          "Aardvark.Rendering": "5.1.11",
+          "Aardvark.SceneGraph": "5.1.11",
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FSharp.Core": "4.7.0",
+          "Unofficial.AssimpNet": "4.0.9"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Aardvark.SceneGraph.IO.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "DevILSharp/0.2.11": {
+        "dependencies": {
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DevILSharp.dll": {
+            "assemblyVersion": "0.2.0.0",
+            "fileVersion": "0.2.0.0"
+          }
+        }
+      },
+      "FShade/5.1.8": {
+        "dependencies": {
+          "FShade.Core": "5.1.8",
+          "FShade.GLSL": "5.1.8",
+          "FShade.Imperative": "5.1.8",
+          "FShade.SpirV": "5.1.8"
+        }
+      },
+      "FShade.Core/5.1.8": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "FShade.Imperative": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FShade.Core.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "FShade.GLSL/5.1.8": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "FShade.Core": "5.1.8",
+          "FShade.Imperative": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FShade.GLSL.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "FShade.Imperative/5.1.8": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "FSharp.Core": "4.7.0",
+          "FsPickler": "5.3.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FShade.Imperative.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "FShade.SpirV/5.1.8": {
+        "dependencies": {
+          "Aardvark.Base": "5.1.9",
+          "Aardvark.Base.FSharp": "5.1.9",
+          "FShade.Core": "5.1.8",
+          "FShade.Imperative": "5.1.8",
+          "FSharp.Core": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FShade.SpirV.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "FSharp.Core/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.700.19.40208"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data.Adaptive/1.2.5": {
+        "dependencies": {
+          "FSharp.Core": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FSharp.Data.Adaptive.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "FsPickler/5.3.2": {
+        "dependencies": {
+          "FSharp.Core": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FsPickler.dll": {
+            "assemblyVersion": "5.3.2.0",
+            "fileVersion": "5.3.2.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/5.0.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "5.0.1",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.2": {},
+      "Microsoft.NETCore.Targets/5.0.0": {},
+      "Silk.NET.Core/1.7.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Memory": "4.5.4",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "Ultz.SuperInvoke": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Silk.NET.Core.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "Silk.NET.GLFW/1.7.0": {
+        "dependencies": {
+          "Silk.NET.Core": "1.7.0",
+          "Ultz.Native.GLFW": "3.3.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Silk.NET.GLFW.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Collections.Immutable/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Dynamic.Runtime/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.7.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1"
+        }
+      },
+      "System.Linq.Expressions/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.ObjectModel": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.ILGeneration": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.7.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Runtime.Extensions": "4.3.1",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.ObjectModel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.1",
+          "System.Threading": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.ILGeneration/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Reflection.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Reflection.TypeExtensions/4.7.0": {},
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Runtime/4.3.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Runtime.Extensions/4.3.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "System.Text.Encodings.Web/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "5.0.0.1",
+            "fileVersion": "5.0.421.11614"
+          }
+        }
+      },
+      "System.Text.Json/5.0.2": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encodings.Web": "5.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.521.16609"
+          }
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.1",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.2",
+          "Microsoft.NETCore.Targets": "5.0.0",
+          "System.Runtime": "4.3.1"
+        }
+      },
+      "Ultz.Native.GLFW/3.3.2.1": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libglfw.so.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libglfw.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/glfw3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/glfw3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Ultz.SuperInvoke/1.1.0": {
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Reflection.Emit": "4.7.0",
+          "Ultz.SuperInvoke.Loader": "1.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Ultz.SuperInvoke.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Ultz.SuperInvoke.Loader/1.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyModel": "5.0.0",
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Ultz.SuperInvoke.Loader.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Unofficial.AssimpNet/4.0.9": {
+        "runtime": {
+          "lib/netstandard2.0/AssimpNet.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Unofficial.LibTessDotNet/2.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/LibTessDotNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Unofficial.OpenTK/3.0.20": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test111/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Aardvark.Application/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ymWdc78YqEzSL/bLH0Cmysx8YKNfH6/w/hUXJQu/NUQTubi3vifwX8krixOICee+AKcdYJQ7pCbAh4sWFgkYSA==",
+      "path": "aardvark.application/5.1.11",
+      "hashPath": "aardvark.application.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.Application.Slim/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZzkRahshm0rJocSmwkkOZ8CMXg3m0CNBI1pOo4/9B+49/FxKZMlc0V/lr/qkYM+60E15auj3OJkbIDst2lBAnA==",
+      "path": "aardvark.application.slim/5.1.11",
+      "hashPath": "aardvark.application.slim.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.Application.Slim.GL/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pVfZAySe4U5zsyE1JCKJ76714tfXCebr2RoP9XTWv9x/v24AVgVShSj0lI5QqYr/yQ1eN8fT4/5BUDVX1J24qw==",
+      "path": "aardvark.application.slim.gl/5.1.11",
+      "hashPath": "aardvark.application.slim.gl.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.Base/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EJvDjNW9avdqFfk7bhBVu9v2epmWiZVqNfETjZtlBatLZnl6CxEVTYwqKIMmgvn4JNG04pmjuO8q/IblqPzE+w==",
+      "path": "aardvark.base/5.1.9",
+      "hashPath": "aardvark.base.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.Essentials/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8K4AvV28iw6cqzGJK/llj2sRc7kGPyXenxcaK9ZT+q5WtetYoEhR/MNx1GBrPKIsYpR6wTJPSMped1dNofroxw==",
+      "path": "aardvark.base.essentials/5.1.9",
+      "hashPath": "aardvark.base.essentials.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.FSharp/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W/QxcekGUj2dC5iXUpOnLISsN7uZXxadrmZrgjVkAZH7m8qP6qsGezvW3WcpcQnTz4B5+8/FNLm/GjnHHLPD8g==",
+      "path": "aardvark.base.fsharp/5.1.9",
+      "hashPath": "aardvark.base.fsharp.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.Incremental/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T1I+9KlApytEh5C4vWvVlePV19KM4aVVOCV554k2ZIhen0PWyjnQb7WwXiAgzY4kHCZ/+0HNOs6cNNYlvwTr1g==",
+      "path": "aardvark.base.incremental/5.1.9",
+      "hashPath": "aardvark.base.incremental.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.Runtime/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FF5vURWJEzs5bn6WwQxs7wiZKLwPrLR93bMYY6cUwrX2WmCMtMkYLhEOgFVAfy/ovz2/v19ce8Mc8z+qE+J1EA==",
+      "path": "aardvark.base.runtime/5.1.9",
+      "hashPath": "aardvark.base.runtime.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.Telemetry/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-16QgylL6u+fCFQ3myJPwIVWL3oC0swashQ2hr6/Wa7FDk/hvMeEkpdpJmk9Ni0I8Weahnx0Ghu2fxZ/RnBqAAw==",
+      "path": "aardvark.base.telemetry/5.1.9",
+      "hashPath": "aardvark.base.telemetry.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.Tensors/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D+qcJCRI0bw27VGhGycA3YYwJUngM3lJdQiM6N+FNskgHDBBDMsggZDSw61IIZigcUc9/EXRUiDYIa2JIBNUwA==",
+      "path": "aardvark.base.tensors/5.1.9",
+      "hashPath": "aardvark.base.tensors.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Base.TypeProviders/4.5.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jywMuRkNb8bS3IWyPVE8EQv6SOz3voS1cE36OHNtl1G+vw7+m3yUZfTTWyF9zYT+A8lOCs4ZoQ3j+gFTl9U7A==",
+      "path": "aardvark.base.typeproviders/4.5.15",
+      "hashPath": "aardvark.base.typeproviders.4.5.15.nupkg.sha512"
+    },
+    "Aardvark.Geometry/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C8ZDdVKOwvGUrXcJ9h1BJFFbf/8LJU++KY0YMtCR1oOdW+NEqk4P27KIP3DKLMvLIurRvcOJ9liLkZBNmweiww==",
+      "path": "aardvark.geometry/5.1.9",
+      "hashPath": "aardvark.geometry.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.PixImage.DevIL/5.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vkQA4TsEGqtTcRXmNSMXFnPukebolaODyoj7K/m6ruIytpTXaOE0pSpTU9MMZ2FcEejKkAUSqmmB5mJfMfdspQ==",
+      "path": "aardvark.piximage.devil/5.1.9",
+      "hashPath": "aardvark.piximage.devil.5.1.9.nupkg.sha512"
+    },
+    "Aardvark.Rendering/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gnpq9+ksiBeps54Yownpeh1RVLUj7b+Ihl8SsW6FRDQTshPYZIZDBchN6d63I56kbYaKRgDrpNuzAAYkeVEnqA==",
+      "path": "aardvark.rendering/5.1.11",
+      "hashPath": "aardvark.rendering.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.Rendering.GL/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oWebEdIt4Zxks74KceF9xjyGwq54ncs3g5Q8pzBUhBFoK69fUKNSt4V9RKI9CrvDQShsJrVCLNX4O9cgbiYkAg==",
+      "path": "aardvark.rendering.gl/5.1.11",
+      "hashPath": "aardvark.rendering.gl.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.SceneGraph/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J6Uuqf98IArSTOSld0p9rdUiVkYP17hzePKGN4Nw8ftpj5PVFlGUGLFbYM+Jb20/OWzcsVjwMDF1ZKeJHo9Oxw==",
+      "path": "aardvark.scenegraph/5.1.11",
+      "hashPath": "aardvark.scenegraph.5.1.11.nupkg.sha512"
+    },
+    "Aardvark.SceneGraph.IO/5.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PNEGpl01E05mphrOsnBiW/fRrFoLPM4YeWtsBbiHAm0EyYpDzmWoiUSBMIQfdwsHdiPmJCHRXK0clHq2RjGwYg==",
+      "path": "aardvark.scenegraph.io/5.1.11",
+      "hashPath": "aardvark.scenegraph.io.5.1.11.nupkg.sha512"
+    },
+    "DevILSharp/0.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KosMP4vns2SBntR4LHXgKZIHxSFKrf9t6Z4gRTJS/24iIj+2F76BeFzECWGSrOxCU9wOVwayOceziCsvl4XlrA==",
+      "path": "devilsharp/0.2.11",
+      "hashPath": "devilsharp.0.2.11.nupkg.sha512"
+    },
+    "FShade/5.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E+mD4Il40UpNGvqJuJbPT1KJaye/Qdo1+Xp5TukCyO55723p6EONuQQMkqYSkw8+EovVm+ZgpEQ8osLuvLLBFg==",
+      "path": "fshade/5.1.8",
+      "hashPath": "fshade.5.1.8.nupkg.sha512"
+    },
+    "FShade.Core/5.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e0rK0QWZzulvZtY6MYQ7FuZnp3hsZ/WJL9UtwnAX/lrlbWc7sn1qDPnnWvnjg3xKxt5OLe+PNmPJZfW3a2+FKQ==",
+      "path": "fshade.core/5.1.8",
+      "hashPath": "fshade.core.5.1.8.nupkg.sha512"
+    },
+    "FShade.GLSL/5.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-exXFY549lVJYr91l6JBBH+ToczIncAdF+F4bbJngsgCcqdSLQXLPDgH1v5rQOQzGHmp2hL2jb+yW+gFSH7toRw==",
+      "path": "fshade.glsl/5.1.8",
+      "hashPath": "fshade.glsl.5.1.8.nupkg.sha512"
+    },
+    "FShade.Imperative/5.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vKhDijibQaD5Y2c+xqAggDKWaFR5lus4cvEmGPPR7gKyud56E82E1xgseqFFROy0syOzZjgfUN+7zX9q4Cz7/Q==",
+      "path": "fshade.imperative/5.1.8",
+      "hashPath": "fshade.imperative.5.1.8.nupkg.sha512"
+    },
+    "FShade.SpirV/5.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V9jbin+Cv0z48czxmWfsYaOs0QNw1IFQ6ZMvyrijNs2ZczeMDmVuwPbzgxbwfLEPUmmBkQQjqheCU/h2KsmRrA==",
+      "path": "fshade.spirv/5.1.8",
+      "hashPath": "fshade.spirv.5.1.8.nupkg.sha512"
+    },
+    "FSharp.Core/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
+      "path": "fsharp.core/4.7.0",
+      "hashPath": "fsharp.core.4.7.0.nupkg.sha512"
+    },
+    "FSharp.Data.Adaptive/1.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2s7y90lYFCylW+GrE7J30Fqz24u5l0TkQ68lMrZbGx3Me3Qy031Eqvzrxy7N/toJ+OQy6fzuZ0YgM5rR3FJt6A==",
+      "path": "fsharp.data.adaptive/1.2.5",
+      "hashPath": "fsharp.data.adaptive.1.2.5.nupkg.sha512"
+    },
+    "FsPickler/5.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFtxXpQNor8az1ez3rN9oz2cqf/06i9yTrPyJ9R83qLEpFAU7Of0WL2hoSXzLHer4lh+6mO1NV4VQFiBzNRtjw==",
+      "path": "fspickler/5.3.2",
+      "hashPath": "fspickler.5.3.2.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-umBECCoMC+sOUgm083yFr8SxTobUOcPFH4AXigdO2xJiszCHAnmeDl4qPphJt+oaJ/XIfV1wOjIts2nRnki61Q==",
+      "path": "microsoft.extensions.dependencymodel/5.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T8Lu7xWbcLFrficw7eOcX1NqDiIvqhyzJ7OA9KyZ/9hfU5zmYGddTyiD6HfYfYkjiPSeYgVsIZt1WxZ8YbI8Cw==",
+      "path": "microsoft.netcore.platforms/5.0.2",
+      "hashPath": "microsoft.netcore.platforms.5.0.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XpSaRv9/+V4KQ5KPbvRoArKy1o9WHizFEdOXPBLHXRZ0zwPGK5cTcWo1SveD7uayrfhod1uAAscip65qLeAjCw==",
+      "path": "microsoft.netcore.targets/5.0.0",
+      "hashPath": "microsoft.netcore.targets.5.0.0.nupkg.sha512"
+    },
+    "Silk.NET.Core/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E8IlpfrZl1NdFquOME8toTtm3UMc+bsfL5bVtV0Tn9CkGBVP0oHo0BWjT7IFFslVRlPJhQPWGdTVK9knBSX2aA==",
+      "path": "silk.net.core/1.7.0",
+      "hashPath": "silk.net.core.1.7.0.nupkg.sha512"
+    },
+    "Silk.NET.GLFW/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e4NVmkxclvRUUlFArrfM+a2AfJDOTenNbkEwGqNCpLbiFnHUPK5LwkWL4NU1AnEo0Q4D2lLiyt8F0m+J7PaMjg==",
+      "path": "silk.net.glfw/1.7.0",
+      "hashPath": "silk.net.glfw.1.7.0.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRmZEITad+0tL22ZfAbLps6doDV+Z0/oH0dtXLpIBwn1sgai3QxxDQPjohHiDeUp/CTzRKVrFFbc4ZITnL2UBg==",
+      "path": "sixlabors.imagesharp/1.0.3",
+      "hashPath": "sixlabors.imagesharp.1.0.3.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Dynamic.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SNVi1E/vfWUAs/WYKhE9+qlS6KqK0YVhnlT0HQtr8pMIA8YX3lwy3uPMownDwdYISBdmAF/2holEIldVp85Wag==",
+      "path": "system.dynamic.runtime/4.3.0",
+      "hashPath": "system.dynamic.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Expressions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PGKkrd2khG4CnlyJwxwwaWWiSiWFNBGlgXvJpeO0xCXrZ89ODrQ6tjEWS/kOqZ8GwEOUATtKtzp1eRgmYNfclg==",
+      "path": "system.linq.expressions/4.3.0",
+      "hashPath": "system.linq.expressions.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.ObjectModel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
+      "path": "system.objectmodel/4.3.0",
+      "hashPath": "system.objectmodel.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJkrJD3kBI5B712aRu4DpSIiHRtr6QlfZSQsb0hYHrDCZORXCFjQfoipo2LaMUHoT9i1B7j7MnfaEKWDFmFQNQ==",
+      "path": "system.reflection.extensions/4.3.0",
+      "hashPath": "system.reflection.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.TypeExtensions/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VybpaOQQhqE6siHppMktjfGBw1GCwvCqiufqmP8F1nj7fTUNtW35LOEt3UZTEsECfo+ELAl/9o9nJx3U91i7vA==",
+      "path": "system.reflection.typeextensions/4.7.0",
+      "hashPath": "system.reflection.typeextensions.4.7.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
+      "path": "system.runtime/4.3.1",
+      "hashPath": "system.runtime.4.3.1.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qAtKMcHOAq9/zKkl0dwvF0T0pmgCQxX1rC49rJXoU8jq+lw6MC3uXy7nLFmjEI20T3Aq069eWz4LcYR64vEmJw==",
+      "path": "system.runtime.extensions/4.3.1",
+      "hashPath": "system.runtime.extensions.4.3.1.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KmJ+CJXizDofbq6mpqDoRRLcxgOd2z9X3XoFNULSbvbqVRZkFX3istvr+MUjL6Zw1RT+RNdoI4GYidIINtgvqQ==",
+      "path": "system.text.encodings.web/5.0.1",
+      "hashPath": "system.text.encodings.web.5.0.1.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "path": "system.text.json/5.0.2",
+      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "Ultz.Native.GLFW/3.3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6YpjNpHFPJ5+ogF8Nw56PZGkgBdnmi6e8XryDcEdWtRINTiJ5MUygOgL2InRq3iaNkPcD1+1OnpBrFvs8KHwaw==",
+      "path": "ultz.native.glfw/3.3.2.1",
+      "hashPath": "ultz.native.glfw.3.3.2.1.nupkg.sha512"
+    },
+    "Ultz.SuperInvoke/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HQteprPNPRya32PKLUYtXgzZx1/KdpdDWAaRYUeJ0AIrS3ozjO9zOT7J+x1tRyF2f2sOZ/SPHSgom8r/wGmO9g==",
+      "path": "ultz.superinvoke/1.1.0",
+      "hashPath": "ultz.superinvoke.1.1.0.nupkg.sha512"
+    },
+    "Ultz.SuperInvoke.Loader/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l2neRo5lcdrf2ujF8nDy1Tulx+KEC7YMsoEbbG/3bDbUwHa5KRwVOUHu3BjqgkIIF6JYGytxGcl0visqLKtd9w==",
+      "path": "ultz.superinvoke.loader/1.1.0",
+      "hashPath": "ultz.superinvoke.loader.1.1.0.nupkg.sha512"
+    },
+    "Unofficial.AssimpNet/4.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uufDWll3lA93kGpO0qfR2wMtf9yKvLxjDYxPnVMPTUls0fwFe9keUdblfZUqygEJwg3S2nX3M37E0AcXBOuAdw==",
+      "path": "unofficial.assimpnet/4.0.9",
+      "hashPath": "unofficial.assimpnet.4.0.9.nupkg.sha512"
+    },
+    "Unofficial.LibTessDotNet/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QiUsOygw1ko4IzkRJKR8pzQSEDm0RN1DkkPLpdrd2wtVTFC/dCpuHCihR3s1bAvL8nyP72bHFczYRlVMkfqWkw==",
+      "path": "unofficial.libtessdotnet/2.0.2",
+      "hashPath": "unofficial.libtessdotnet.2.0.2.nupkg.sha512"
+    },
+    "Unofficial.OpenTK/3.0.20": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hl6535IS+vvgA1gXgxtnAomPPzs8zaWEDwRui0p1tfJkkCyTsgPuPFUocULufrhiId7ySV8aRpyM/r8cPLFPrw==",
+      "path": "unofficial.opentk/3.0.20",
+      "hashPath": "unofficial.opentk.3.0.20.nupkg.sha512"
+    }
+  }
+}
