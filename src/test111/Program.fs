@@ -18,7 +18,7 @@ module Shader =
 
     let cubeMap (v : Effects.Vertex) =
         fragment {
-            let vp = uniform.ProjTrafoInv * v.pos
+            let vp = uniform.ProjTrafoInv * V4d.OOII
             let vd = vp.XYZ / vp.W
             let dir = uniform.ViewTrafoInv * V4d(vd, 0.0) |> Vec.xyz |> Vec.normalize
             let phi0 = atan2 dir.Y dir.X
@@ -73,6 +73,7 @@ let main argv =
         )
 
     let sg =
+        
         Sg.box' C4b.Red (Box3d(-V3d.III, V3d.III))
             |> Sg.scale 1.0
             |> Sg.translate -2.0 -2.0 -2.0
@@ -86,6 +87,15 @@ let main argv =
 
             //|> Sg.projTrafo (proj |> AVal.map Frustum.projTrafo)
 
+    let sg2 = 
+        Sg.lines (C4b.White |> AVal.constant) (AVal.constant [|Line3d(V3d(-100.0,-80.0,10.0), V3d(56.0,44.0,10.0))|])
+            |> Sg.shader {
+                do! DefaultSurfaces.trafo
+                do! DefaultSurfaces.thickLine
+            }
+            |> Sg.uniform "LineWidth" (AVal.constant 10.0)
+
+    let sg = Sg.ofList [sg;sg2]
     let projs =
         let p = Frustum.perspective 90.0 0.1 100.0 1.0 |> Frustum.projTrafo
         [|
