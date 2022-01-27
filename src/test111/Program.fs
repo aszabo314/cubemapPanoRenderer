@@ -18,16 +18,16 @@ module Shader =
 
     let cubeMap (v : Effects.Vertex) =
         fragment {
-            let vp = uniform.ProjTrafoInv * V4d.OOII
-            let vd = vp.XYZ / vp.W
-            let dir = uniform.ViewTrafoInv * V4d(vd, 0.0) |> Vec.xyz |> Vec.normalize
-            let phi0 = atan2 dir.Y dir.X
-            let theta0 = asin dir.Z
+            //let vp = uniform.ProjTrafoInv * V4d.OOII
+            //let vd = vp.XYZ / vp.W
+            //let dir = uniform.ViewTrafoInv * V4d(vd, 0.0) |> Vec.xyz |> Vec.normalize
+            //let phi0 = atan2 dir.Y dir.X
+            //let theta0 = asin dir.Z
 
             let c = v.pos.XY / v.pos.W
 
-            let phi = phi0 + c.X * Constant.Pi
-            let theta = theta0 + c.Y * Constant.PiHalf
+            let phi = c.X * Constant.Pi //phi0 + c.X * Constant.Pi
+            let theta = c.Y * Constant.PiHalf // theta0 + c.Y * Constant.PiHalf
 
 
             let dir = 
@@ -37,7 +37,7 @@ module Shader =
                     sin theta
                 )
 
-
+            let dir = uniform.ViewTrafoInv * V4d(dir,0.0) |> Vec.xyz |> Vec.normalize
 
             return map.SampleLevel(dir, 0.0)
         }
